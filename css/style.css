@@ -33,6 +33,7 @@ p{
 
 .container-fluid{
     padding: 3% 15%;
+
 }
 
 .col-lg-6{
@@ -66,15 +67,20 @@ p{
 /* Title image */
 
 .title-image{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    left: 57%;
+   
 }
 
 
 /* Feature Section */
 
 #features{
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box{
@@ -94,7 +100,7 @@ p{
 
 /* Testimonial Section */
 #testimonials{
-    padding: 7% 15%;
+    
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -106,7 +112,9 @@ p{
     margin: 20px;
 }
 
-
+.carousel-item {
+    padding: 7% 15%;
+}
 #press{
     background-color: #ef8172;
     text-align: center;
@@ -117,3 +125,53 @@ p{
     width: 15%;
     margin:20px 20px 50px;
 }
+
+/* pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.cta-header{
+    font-family: "Monserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+@media(max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    
+}
+
+
